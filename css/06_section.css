@@ -37,11 +37,11 @@
 
 .grid-section .post-list{
     grid-area: post;
-    background-color: lightcyan;
+    /* background-color: lightcyan; */
 }
 .grid-section .more{
     grid-area: more;
-    background-color: lightslategray;
+    /* background-color: lightslategray; */
     align-self: start;
     justify-self: start;
 }
