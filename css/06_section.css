@@ -56,7 +56,7 @@
 }
 
 .latest{
-    /* background: var(--c-light-gray); */
+    background: var(--c-light-gray);
 }
 
 .video .max-width{
