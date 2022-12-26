@@ -62,5 +62,6 @@ html {
 body {
   font-family: "Pretendard", sans-serif;
   font-size: clamp(1.4rem, 1.6 / var(--max-width) * 100vw, 1.6rem);
+  /* *최대값 / 가변값(공식_뜯어볼것) / 최소값 */
   line-height: 1.4;
 }
