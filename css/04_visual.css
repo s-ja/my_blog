@@ -1,0 +1,36 @@
+main{
+    /* background-color: lightskyblue; */
+    flex-grow: 1;
+    /* height: 200vh; */
+    /* padding-top: 5em; */
+}
+
+.visual{
+    /* background: url(../img/main-visual.jpg) no-repeat 50% 50% / cover; */
+    background: #000;
+    height: 80rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: clamp(40em, 80 / var(--max-width) * 100vw, 80rem);
+}
+
+.visual img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.visual h2{
+    position: relative;
+    z-index: 10;
+    /* font-size: 20rem; */
+    font-size: clamp(4em, 20 / var(--max-width) * 100vw, 20rem);
+    color: rgba(var(--rgb-light), 0.2);
+    font-weight: bold;
+}

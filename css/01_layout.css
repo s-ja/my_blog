@@ -32,13 +32,12 @@
     width: 100%;
 } */
 
-main{
+/* main{
     background-color: lightskyblue;
     flex-grow: 1;
     height: 200vh;
     padding-top: 5em;
-
-}
+} */
 footer{
     background-color: lightcyan;
     height: 5em;
